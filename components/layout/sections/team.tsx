@@ -35,7 +35,7 @@ export const TeamSection = () => {
   const teamList: TeamProps[] = [
     {
       imageUrl: DefaultIcon,
-      firstName: "Nikita",
+      firstName: "Dr.Nikita",
       lastName: "Singh",
       positions: [],
       socialNetworks: [
@@ -212,8 +212,8 @@ export const TeamSection = () => {
     {
       imageUrl: DefaultIcon,
       firstName: "Shreyas",
-      lastName: "Abiram YR",
-      positions: ["Photography"],
+      lastName: "Abiram",
+      positions: ["Cinematographer"],
       socialNetworks: [
         {
           name: "LinkedIn",
@@ -231,22 +231,14 @@ export const TeamSection = () => {
     },
     {
       imageUrl: DefaultIcon,
-      firstName: "Unknown",
-      lastName: "",
-      positions: [""],
+      firstName: "You",
+      lastName: "Can Be Here",
+      positions: ["Apply Now! Reach Out To Us On Linkedin"],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
+          url: "https://www.linkedin.com/comapany/",
+        }
       ],
     },
   ];
@@ -269,7 +261,7 @@ export const TeamSection = () => {
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold">
-          The Company Dream Team
+          The Team Behind DevSphere
         </h2>
       </div>
 

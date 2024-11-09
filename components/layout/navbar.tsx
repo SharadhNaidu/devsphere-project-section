@@ -75,9 +75,8 @@ export const Navbar = () => {
   return (
     <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 bg-card">
       <Link href="/" className="font-bold text-lg flex justify-center items-center">
-        <Image src={DevSphereLogo} alt="" width={35} height={35} />
-
-        <h3 className="text-2xl pl-2">DevSphere</h3>
+        <Image src={DevSphereLogo} alt="" width={30} height={30} className="pl-1" />
+        <h3 className="text-xl pl-2">DevSphere</h3>
       </Link>
       {/* <!-- Mobile --> */}
       <div className="flex items-center lg:hidden">
@@ -180,7 +179,7 @@ export const Navbar = () => {
         <Button asChild size="sm" variant="ghost" aria-label="View on GitHub">
           <Link
             aria-label="View on GitHub"
-            href="https://github.com/nobruf/shadcn-landing-page.git"
+            href="https://github.com/0xDevSphere"
             target="_blank"
           >
             <Github className="size-5" />
