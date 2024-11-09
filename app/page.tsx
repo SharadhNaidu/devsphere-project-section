@@ -46,12 +46,12 @@ export default function Home() {
       <SponsorsSection />
       <BenefitsSection />
       <FeaturesSection />
-      <ServicesSection />
+      {/* <ServicesSection /> */}
       <TestimonialSection />
       <TeamSection />
       <CommunitySection />
-      <PricingSection />
-      <ContactSection />
+      {/* <PricingSection /> */}
+      {/* <ContactSection /> */}
       <FAQSection />
       <FooterSection />
     </>
