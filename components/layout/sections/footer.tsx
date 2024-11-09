@@ -119,7 +119,7 @@ export const FooterSection = () => {
         <Separator className="my-6" />
         <section className="">
           <h3 className="">
-            &copy; DevSphere(Open Source and Web 3.0 Club of RV University)2024
+            &copy; DevSphere 2024 (Open Source and Web 3.0 Club of RV University)
           </h3>
         </section>
       </div>

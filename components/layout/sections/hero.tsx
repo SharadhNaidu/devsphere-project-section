@@ -34,7 +34,7 @@ export const HeroSection = () => {
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
             <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
-              Get Started
+              Join Now
               <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
             </Button>
 
@@ -44,28 +44,16 @@ export const HeroSection = () => {
               className="w-5/6 md:w-1/4 font-bold"
             >
               <Link
-                href="https://github.com/nobruf/shadcn-landing-page.git"
+                href="https://github.com/0xDevSphere"
                 target="_blank"
               >
-                Learn More
+                Explore Projects
               </Link>
             </Button>
           </div>
         </div>
 
         <div className="relative group mt-14">
-          <div className="absolute top-2 lg:-top-8 left-1/2 transform -translate-x-1/2 w-[90%] mx-auto h-24 lg:h-80 bg-primary/50 rounded-full blur-3xl"></div>
-          <Image
-            width={1200}
-            height={1200}
-            className="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-secondary  border-t-primary/30"
-            src={
-              theme === "light"
-                ? "/hero-image-light.jpeg"
-                : "/hero-image-dark.jpeg"
-            }
-            alt="dashboard"
-          />
 
           <div className="absolute bottom-0 left-0 w-full h-20 md:h-28 bg-gradient-to-b from-background/0 via-background/50 to-background rounded-lg"></div>
         </div>
