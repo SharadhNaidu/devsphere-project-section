@@ -1,6 +1,7 @@
 "use client";
 
 import { Icon } from "@/components/ui/icon";
+import MicrosoftSVG from "@/public/microsoft-logo-svgrepo-com.svg";
 import { Marquee } from "@devnomic/marquee";
 import "@devnomic/marquee/dist/index.css";
 import { icons } from "lucide-react";

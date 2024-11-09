@@ -17,11 +17,10 @@ export const CommunitySection = () => {
           <Card className="bg-background border-none shadow-none text-center flex flex-col items-center justify-center">
             <CardHeader>
               <CardTitle className="text-4xl md:text-5xl font-bold flex flex-col items-center">
-                <DiscordIcon />
                 <div>
-                  Ready to join this
-                  <span className="text-transparent pl-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                    Community?
+                  Ready to join our
+                  <span className="text-transparent pl-6 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
+                    Club?
                   </span>
                 </div>
               </CardTitle>
@@ -33,7 +32,7 @@ export const CommunitySection = () => {
 
             <CardFooter>
               <Button asChild>
-                <a href="https://discord.com/" target="_blank">
+                <a href="https://forms.gle/ZaXY3jk2NP1zeSK66" target="_blank">
                   Join Discord
                 </a>
               </Button>
