@@ -1,43 +1,36 @@
 "use client";
 
-import { Icon } from "@/components/ui/icon";
-import MicrosoftSVG from "@/public/microsoft-logo-svgrepo-com.svg";
+import MicrosoftSVG from "@/public/microsoft-svgrepo-com.svg";
+import MozillaSVG from "@/public/firefox-svgrepo-com.svg";
+import GithubSVG from "@/public/github_inverted.png";
+import TenacityLogo from "@/public/tenacity_community_logo.jpg";
 import { Marquee } from "@devnomic/marquee";
 import "@devnomic/marquee/dist/index.css";
 import { icons } from "lucide-react";
+import  Image from "next/image";
+import { StaticImageData } from "next/image";
 interface sponsorsProps {
-  icon: string;
+  icon: StaticImageData;
   name: string;
 }
 
 const sponsors: sponsorsProps[] = [
   {
-    icon: "Crown",
-    name: "Acmebrand",
+    icon: MicrosoftSVG,
+    name: "Microsoft",
   },
   {
-    icon: "Vegan",
-    name: "Acmelogo",
+    icon: MozillaSVG,
+    name: "Mozilla",
+  },
+
+  {
+    icon: GithubSVG,
+    name: "Github",
   },
   {
-    icon: "Ghost",
-    name: "Acmesponsor",
-  },
-  {
-    icon: "Puzzle",
-    name: "Acmeipsum",
-  },
-  {
-    icon: "Squirrel",
-    name: "Acme",
-  },
-  {
-    icon: "Cookie",
-    name: "Accmee",
-  },
-  {
-    icon: "Drama",
-    name: "Acmetech",
+    icon: GithubSVG,
+    name: "Tenacity",
   },
 ];
 
@@ -60,10 +53,11 @@ export const SponsorsSection = () => {
               key={name}
               className="flex items-center text-xl md:text-2xl font-medium"
             >
-              <Icon
-                name={icon as keyof typeof icons}
-                size={32}
-                color="white"
+              <Image
+                src={icon}
+                alt={name}
+                width={40}
+                height={40}
                 className="mr-2"
               />
               {name}
