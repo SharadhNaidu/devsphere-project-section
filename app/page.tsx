@@ -12,29 +12,29 @@ import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
-  title: "Shadcn - Landing template",
-  description: "Free Shadcn landing page for developers",
+  title: "DevSphere",
+  description: "Open Source & Web 3.0 Club of RV University",
   openGraph: {
     type: "website",
-    url: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    url: "https://github.com/0xDevSphere/devsphere-website.git",
+    title: "DevSphere",
+    description: "Open Source & Web 3.0 Club of RV University",
     images: [
       {
-        url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
+        url: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=820,height=234.28571428571428/calendar-cover-images/wy/0051222f-2ffb-4c14-9a8e-342c6324fa66",
         width: 1200,
         height: 630,
-        alt: "Shadcn - Landing template",
+        alt: "DevSphere Club",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     site: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    title: "DevSphere",
+    description: "Open Source & Web 3.0 Club of RV University",
     images: [
-      "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
+      "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=820,height=234.28571428571428/calendar-cover-images/wy/0051222f-2ffb-4c14-9a8e-342c6324fa66",
     ],
   },
 };
