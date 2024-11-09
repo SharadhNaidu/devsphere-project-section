@@ -5,6 +5,10 @@ import DefaultIcon from "@/public/default.jpeg";
 import TaufeeqImage from "@/public/Taufeeq1.jpg";
 import KautilyaImage from "@/public/Kautilya_.jpg";
 import PushanImage from "@/public/Pushan.jpg";
+import SagarImage from "@/public/Sagar.jpg";
+import YashmeetImage from "@/public/Yashmeet.jpg";
+import SamarthImage from "@/public/Samarth.jpg";
+import SharuImage from "@/public/sharu.jpg";
 import { StaticImageData } from "next/image";
 
 import {
@@ -67,7 +71,6 @@ export const TeamSection = () => {
           name: "X",
           url: "https://x.com/leo_mirand4",
         },
-        
       ],
     },
     {
@@ -108,9 +111,9 @@ export const TeamSection = () => {
     },
     {
       imageUrl: DefaultIcon,
-      firstName: "Michael",
-      lastName: "Holland",
-      positions: ["DevOps Engineer", "CI/CD Pipeline Mastermind"],
+      firstName: "Soumik",
+      lastName: "Halder",
+      positions: ["Growth and Partnerships"],
       socialNetworks: [
         {
           name: "LinkedIn",
@@ -119,10 +122,10 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl: DefaultIcon,
-      firstName: "Zoe",
-      lastName: "Garcia",
-      positions: ["JavaScript Evangelist", "Deno Champion"],
+      imageUrl: SagarImage,
+      firstName: "Sagar",
+      lastName: "N Rao",
+      positions: ["Design Lead"],
       socialNetworks: [
         {
           name: "LinkedIn",
@@ -135,10 +138,42 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl: DefaultIcon,
-      firstName: "Evan",
-      lastName: "James",
-      positions: ["Backend Developer"],
+      imageUrl: YashmeetImage,
+      firstName: "Yashmeet",
+      lastName: "Baid",
+      positions: ["Events and Experiences"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        },
+        {
+          name: "Github",
+          url: "https://github.com/leoMirandaa",
+        },
+        {
+          name: "X",
+          url: "https://x.com/leo_mirand4",
+        },
+      ],
+    },
+    {
+      imageUrl: SamarthImage,
+      firstName: "Samarth",
+      lastName: "Swarup K",
+      positions: ["Community Manager"],
+      socialNetworks: [
+        {
+          name: "X",
+          url: "https://x.com/leo_mirand4",
+        },
+      ],
+    },
+    {
+      imageUrl: SharuImage,
+      firstName: "Sharu G",
+      lastName: "Hampali",
+      positions: ["Content Manager"],
       socialNetworks: [
         {
           name: "LinkedIn",
@@ -156,10 +191,58 @@ export const TeamSection = () => {
     },
     {
       imageUrl: DefaultIcon,
-      firstName: "Pam",
-      lastName: "Taylor",
-      positions: ["Fullstack Developer", "UX Researcher"],
+      firstName: "Daiwik",
+      lastName: "Reddy",
+      positions: ["Media Head"],
       socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        },
+        {
+          name: "Github",
+          url: "https://github.com/leoMirandaa",
+        },
+        {
+          name: "X",
+          url: "https://x.com/leo_mirand4",
+        },
+      ],
+    },
+    {
+      imageUrl: DefaultIcon,
+      firstName: "Shreyas",
+      lastName: "Abiram YR",
+      positions: ["Photography"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        },
+        {
+          name: "Github",
+          url: "https://github.com/leoMirandaa",
+        },
+        {
+          name: "X",
+          url: "https://x.com/leo_mirand4",
+        },
+      ],
+    },
+    {
+      imageUrl: DefaultIcon,
+      firstName: "Unknown",
+      lastName: "",
+      positions: [""],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        },
+        {
+          name: "Github",
+          url: "https://github.com/leoMirandaa",
+        },
         {
           name: "X",
           url: "https://x.com/leo_mirand4",
