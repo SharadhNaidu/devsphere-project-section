@@ -19,7 +19,7 @@ export const CommunitySection = () => {
               <CardTitle className="text-4xl md:text-5xl font-bold flex flex-col items-center">
                 <div>
                   Ready to join our
-                  <span className="text-transparent pl-6 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
+                  <span className="text-transparent pl-6 bg-gradient-to-r from-[#7e9fd7] to-primary bg-clip-text">
                     Club?
                   </span>
                 </div>
