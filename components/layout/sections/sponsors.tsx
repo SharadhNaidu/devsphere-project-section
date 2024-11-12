@@ -2,7 +2,7 @@
 
 import { Marquee } from "@devnomic/marquee";
 import "@devnomic/marquee/dist/index.css";
-import { SiGithub, SiMicrosoft, SiMozilla } from "react-icons/si";
+import { SiGithub, SiMozilla } from "react-icons/si";
 import TenacityIcon from "@/components/icons/tenacity-icon";
 import MicrosoftIcon from "@/components/icons/microsoft-logo";
 // NOTE TO DEVELOPERS - only use icons from react-icons and
@@ -14,22 +14,38 @@ interface sponsorsProps {
 }
 
 const sponsors: sponsorsProps[] = [
-    {
-        icon: <SiGithub />,
-        name: "GitHub",
-    },
-    {
-        icon: <MicrosoftIcon />,
-        name: "",
-    },
-    {
-        icon: <SiMozilla />,
-        name: "Mozilla",
-    },
-    {
-        icon: <TenacityIcon />,
-        name: "",
-    },
+  {
+    icon: <SiGithub />,
+    name: "GitHub",
+  },
+  {
+    icon: <MicrosoftIcon />,
+    name: "",
+  },
+  {
+    icon: <SiMozilla />,
+    name: "Mozilla",
+  },
+  {
+    icon: <TenacityIcon />,
+    name: "",
+  },
+  {
+    icon: <SiGithub />,
+    name: "GitHub",
+  },
+  {
+    icon: <MicrosoftIcon />,
+    name: "",
+  },
+  {
+    icon: <SiMozilla />,
+    name: "Mozilla",
+  },
+  {
+    icon: <TenacityIcon />,
+    name: "",
+  },
 ];
 
 export const SponsorsSection = () => {
@@ -45,6 +61,7 @@ export const SponsorsSection = () => {
                     fade
                     innerClassName="gap-[3rem]"
                     pauseOnHover
+                    
                 >
                     {sponsors.map(({ icon, name }) => (
                         <div

@@ -33,20 +33,19 @@ export const HeroSection = () => {
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
-            <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
-              Join Now
-              <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
-            </Button>
+            <a href="https://forms.gle/ZaXY3jk2NP1zeSK66" target="_blank">
+              <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
+                Join Now
+                <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
+              </Button>
+            </a>
 
             <Button
               asChild
               variant="secondary"
               className="w-5/6 md:w-1/4 font-bold"
             >
-              <Link
-                href="https://github.com/0xDevSphere"
-                target="_blank"
-              >
+              <Link href="https://github.com/0xDevSphere" target="_blank">
                 Explore Projects
               </Link>
             </Button>
@@ -54,7 +53,6 @@ export const HeroSection = () => {
         </div>
 
         <div className="relative group mt-14">
-
           <div className="absolute bottom-0 left-0 w-full h-20 md:h-28 bg-gradient-to-b from-background/0 via-background/50 to-background rounded-lg"></div>
         </div>
       </div>
