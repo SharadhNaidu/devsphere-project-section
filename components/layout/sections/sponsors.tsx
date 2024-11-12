@@ -2,7 +2,7 @@
 
 import { Marquee } from "@devnomic/marquee";
 import "@devnomic/marquee/dist/index.css";
-import { SiGithub, SiMicrosoft, SiMozilla } from "react-icons/si";
+import { SiGithub, SiMozilla } from "react-icons/si";
 import TenacityIcon from "@/components/icons/tenacity-icon";
 import MicrosoftIcon from "@/components/icons/microsoft-logo";
 // NOTE TO DEVELOPERS - only use icons from react-icons and
