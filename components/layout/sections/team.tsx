@@ -22,7 +22,6 @@ import {
 } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
-import { Hammersmith_One } from "next/font/google";
 interface TeamProps {
   imageUrl: StaticImageData;
   firstName: string;
