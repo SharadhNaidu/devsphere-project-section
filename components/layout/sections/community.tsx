@@ -33,7 +33,7 @@ export const CommunitySection = () => {
             <CardFooter>
               <Button asChild>
                 <a href="https://forms.gle/ZaXY3jk2NP1zeSK66" target="_blank">
-                  Join Discord
+                  Join Club
                 </a>
               </Button>
             </CardFooter>

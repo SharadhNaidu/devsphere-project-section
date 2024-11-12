@@ -14,22 +14,38 @@ interface sponsorsProps {
 }
 
 const sponsors: sponsorsProps[] = [
-    {
-        icon: <SiGithub />,
-        name: "GitHub",
-    },
-    {
-        icon: <MicrosoftIcon />,
-        name: "",
-    },
-    {
-        icon: <SiMozilla />,
-        name: "Mozilla",
-    },
-    {
-        icon: <TenacityIcon />,
-        name: "",
-    },
+  {
+    icon: <SiGithub />,
+    name: "GitHub",
+  },
+  {
+    icon: <MicrosoftIcon />,
+    name: "",
+  },
+  {
+    icon: <SiMozilla />,
+    name: "Mozilla",
+  },
+  {
+    icon: <TenacityIcon />,
+    name: "",
+  },
+  {
+    icon: <SiGithub />,
+    name: "GitHub",
+  },
+  {
+    icon: <MicrosoftIcon />,
+    name: "",
+  },
+  {
+    icon: <SiMozilla />,
+    name: "Mozilla",
+  },
+  {
+    icon: <TenacityIcon />,
+    name: "",
+  },
 ];
 
 export const SponsorsSection = () => {
@@ -45,6 +61,7 @@ export const SponsorsSection = () => {
                     fade
                     innerClassName="gap-[3rem]"
                     pauseOnHover
+                    
                 >
                     {sponsors.map(({ icon, name }) => (
                         <div

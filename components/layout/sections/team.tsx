@@ -9,6 +9,8 @@ import SagarImage from "@/public/Sagar.jpg";
 import YashmeetImage from "@/public/Yashmeet.jpg";
 import SamarthImage from "@/public/Samarth.jpg";
 import SharuImage from "@/public/sharu.jpg";
+import HarshaImage from "@/public/harsha.jpg";
+import DaiwikImage from "@/public/daiwik.jpg";
 import { StaticImageData } from "next/image";
 
 import {
@@ -20,6 +22,7 @@ import {
 } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
+import { Hammersmith_One } from "next/font/google";
 interface TeamProps {
   imageUrl: StaticImageData;
   firstName: string;
@@ -190,7 +193,7 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl: DefaultIcon,
+      imageUrl: DaiwikImage,
       firstName: "Daiwik",
       lastName: "Reddy",
       positions: ["Media Head"],
@@ -230,15 +233,23 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl: DefaultIcon,
-      firstName: "You",
-      lastName: "Can Be Here",
-      positions: ["Apply Now! Reach Out To Us On Linkedin"],
+      imageUrl: HarshaImage,
+      firstName: "Venkata",
+      lastName: "Sushant Harsha",
+      positions: ["Content Writer"],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/comapany/",
-        }
+          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        },
+        {
+          name: "Github",
+          url: "https://github.com/leoMirandaa",
+        },
+        {
+          name: "X",
+          url: "https://x.com/leo_mirand4",
+        },
       ],
     },
   ];
