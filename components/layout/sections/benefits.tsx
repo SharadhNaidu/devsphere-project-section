@@ -40,13 +40,17 @@ export const BenefitsSection = () => {
     <section id="benefits" className="container py-24 sm:py-32">
       <div className="grid lg:grid-cols-2 place-items-center lg:gap-24">
         <div>
-          <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
+          <h2 className="text-lg text-primary text-center md:text-start mb-2 tracking-wider">
+            Benefits
+          </h2>
 
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl text-center md:text-start font-bold mb-4">
             Unlock New Opportunities with DevSphere
           </h2>
-          <p className="text-xl text-muted-foreground mb-8">
-            Our community connects you with valuable resources, hands on experience, and mentorship from industry leaders. Let us help you reach your potential in the decentralized tech space.
+          <p className="text-xl text-center md:text-start text-muted-foreground mb-8">
+            Our community connects you with valuable resources, hands on
+            experience, and mentorship from industry leaders. Let us help you
+            reach your potential in the decentralized tech space.
           </p>
         </div>
 

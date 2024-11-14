@@ -25,7 +25,7 @@ const FAQList: FAQProps[] = [
   },
   {
     question:
-      "I have already filled the fo but haven't recvied any response. What should I do?",
+      "I have already filled the form but haven't recvied any response. What should I do?",
     answer:
       "Once you’ve submitted the form, there’s nothing more required from your side. We recruit members on a rolling basis, so we kindly ask for your patience as we work to onboard new members. Our focus is on providing a quality experience, and we want to ensure that each member gets the attention they deserve. Rest assured, we’ll reach out as soon as a spot opens up for you!",
     value: "item-3",
