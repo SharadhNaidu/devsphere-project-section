@@ -27,11 +27,11 @@ interface ReviewProps {
 const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe",
-    userName: "Product Manager",
+    name: "Mehul Goyal",
+    userName: "BTech23",
     comment:
-      "Wow NextJs + Shadcn is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
-    rating: 5.0,
+      "Devsphere is the perfect launchpad for anyone—it's where beginners become builders, guided by a community that's as passionate about learning as it is about creating real-world projects together, and ofc the members here will just not guide u but help u get to that level that u can only imagine",
+    rating: 4.5,
   },
   {
     image: "https://github.com/shadcn.png",
@@ -117,7 +117,7 @@ export const TestimonialSection = () => {
                   <div className="flex flex-row items-center gap-4">
                     <Avatar>
                       <AvatarImage
-                        src="https://avatars.githubusercontent.com/u/75042455?v=4"
+                        src={review.image}
                         alt="radix"
                       />
                       <AvatarFallback>SV</AvatarFallback>
