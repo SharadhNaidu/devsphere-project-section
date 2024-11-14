@@ -21,15 +21,16 @@ export const HeroSection = () => {
 
           <div className="max-w-screen-lg mx-auto text-center text-3xl md:text-6xl font-bold leading-relaxed">
             <h1>
-              Build, Collaborate, Transform <br /> Welcome to
+              Welcome To
               <span className="text-transparent px-2 bg-gradient-to-r from-[#7e9fd7] to-primary bg-clip-text ml-2">
-                DevSphere
+                DevSphere <br />
               </span>
+              <span className="text-2xl md:text-4xl">Build · Collaborate · Transform</span> <br />
             </h1>
           </div>
 
           <p className="max-w-screen-md mx-auto text-xl text-muted-foreground text-justify">
-            {`A place for builders, learners, and tech enthusiasts who want to create a future that’s more open, connected, and decentralized. If you’re ready to dive into Web3 and open-source projects, collaborate with others, and make a real impact, you’re in the right place.`}
+            {`A place for builders, learners, and tech enthusiasts who want to create a future that’s more open, connected, and decentralized.`}
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
@@ -45,7 +46,7 @@ export const HeroSection = () => {
               variant="secondary"
               className="w-5/6 md:w-1/4 font-bold"
             >
-              <Link href="https://github.com/0xDevSphere" target="_blank">
+              <Link href="https://github.com/orgs/0xDevSphere/repositories" target="_blank">
                 Explore Projects
               </Link>
             </Button>
