@@ -24,44 +24,19 @@ export const FooterSection = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Contact</h3>
-            <div>
-              <Link
-                href="https://github.com/0xDevSphere"
-                target="_blank"
-                className="opacity-60 hover:opacity-100"
-              >
-                Github
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Twitter
-              </Link>
-            </div>
-
-            <div>
-              <Link
-                href="https://www.instagram.com/devsphere.rvu"
-                target="_blank"
-                className="opacity-60 hover:opacity-100"
-              >
-                Instagram
-              </Link>
-            </div>
+            <h3 className="font-bold text-lg"></h3>
           </div>
 
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Events</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="https://lu.ma/devsphere" className="opacity-60 hover:opacity-100">
                 Upcoming Events
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="https://lu.ma/devsphere" className="opacity-60 hover:opacity-100">
                 Past Events
               </Link>
             </div>
@@ -72,7 +47,7 @@ export const FooterSection = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Help</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="mailto:taufeeqr.btech23@rvu.edu.in, kautilyadk.btech23@rvu.edu.in?subject=GM%20GM" className="opacity-60 hover:opacity-100">
                 Contact Us
               </Link>
             </div>
@@ -93,20 +68,28 @@ export const FooterSection = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Socials</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Twitch
+              <Link
+                href="https://github.com/0xDevSphere"
+                target="_blank"
+                className="opacity-60 hover:opacity-100"
+              >
+                Github
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Discord
+              <Link href="https://www.linkedin.com/company/99369297/" className="opacity-60 hover:opacity-100">
+                Linkedin
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Dribbble
+              <Link
+                href="https://www.instagram.com/devsphere.rvu"
+                target="_blank"
+                className="opacity-60 hover:opacity-100"
+              >
+                Instagram
               </Link>
             </div>
           </div>

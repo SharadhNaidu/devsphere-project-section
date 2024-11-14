@@ -11,39 +11,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Learn by Building, for Real",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "You dive straight into real projects and leave with skills that actually mean something, plus a portfolio full of stuff you actually made.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "Meet People Who Get It",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Ever feel like you’re the only one who’s excited about the future of tech? Not here. We connect you with mentors and people who are living and breathing this stuff.",
   },
   {
     icon: "Goal",
-    title: "Targeted Content",
+    title: "A Club that Is Inclusive",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "You’re surrounded by folks who get as hyped as you do about building the future. You’ll find teammates for hackathons, buddies to brainstorm with, and friends who push you to do better.",
   },
   {
     icon: "PictureInPicture",
-    title: "Strong Visuals",
+    title: "The Resources You Need",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "We’ve gathered the best resources, tools, and guides so you don’t have to waste time digging through endless online tutorials.",
   },
   {
     icon: "MousePointerClick",
-    title: "Clear CTA",
+    title: "Jumpstart Your Career",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "You’ll work on projects that prove you’re ready for the industry projects that’ll make hiring managers sit up and notice.",
   },
   {
     icon: "Newspaper",
-    title: "Clear Headline",
+    title: "Grow in Every Way",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "We’re not just here to teach you how to code, we’re here to help you grow, make impact.",
   },
 ];
 
@@ -55,13 +55,11 @@ export const FeaturesSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        What Makes Us Different
+        Why DevSphere Stands Out
       </h2>
 
-      <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+      <h3 className="md:w-1/2 mx-auto text-xl text-justify text-muted-foreground mb-8">
+        We are dedicated to creating a supportive space where members can grow their skills, take on exciting challenges, and explore the future of Web 3.0 together.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

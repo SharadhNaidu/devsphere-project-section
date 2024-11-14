@@ -10,28 +10,28 @@ interface BenefitsProps {
 
 const benefitList: BenefitsProps[] = [
   {
-    icon: "Blocks",
-    title: "Build Brand Trust",
+    icon: "Users",
+    title: "Build Your Network",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Connect with industry leaders, experienced mentors, and like-minded peers who share your passion for blockchain and open-source development.",
   },
   {
     icon: "LineChart",
-    title: "More Leads",
+    title: "Access More Career Opportunities",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "From startups to established tech giants, our network gives you the edge you need to succeed.",
   },
   {
-    icon: "Wallet",
-    title: "Higher Conversions",
+    icon: "Goal",
+    title: "Sharpen Your Skills",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Through workshops, hackathons, and group projects, you’ll gain hands-on experience and develop skills that are in high demand.",
   },
   {
     icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    title: "Test and Validate Your Ideas",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "DevSphere offers a supportive environment where you can brainstorm, test, and refine your ideas.",
   },
 ];
 
@@ -43,12 +43,10 @@ export const BenefitsSection = () => {
           <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+            Unlock New Opportunities with DevSphere
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+            Our community connects you with valuable resources, hands on experience, and mentorship from industry leaders. Let us help you reach your potential in the decentralized tech space.
           </p>
         </div>
 
