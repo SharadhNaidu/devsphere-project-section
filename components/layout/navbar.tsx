@@ -149,7 +149,7 @@ export const Navbar = () => {
                 <NavigationMenuList>
                     <NavigationMenuItem>
                         <NavigationMenuTrigger className="bg-card text-base">
-                            Features
+                            About Us
                         </NavigationMenuTrigger>
                         <NavigationMenuContent>
                             <div className="grid w-[600px] grid-cols-2 gap-5 p-4">
@@ -184,7 +184,7 @@ export const Navbar = () => {
                     <NavigationMenuItem>
                         {routeList.map(({ href, label }) => (
                             <NavigationMenuLink key={href} asChild>
-                                <Link href={href} className="text-base px-2">
+                                <Link href={href} className="text-base px-4">
                                     {label}
                                 </Link>
                             </NavigationMenuLink>

@@ -21,10 +21,11 @@ export const HeroSection = () => {
 
           <div className="max-w-screen-lg mx-auto text-center text-3xl md:text-6xl font-bold leading-relaxed">
             <h1>
-              Build, Collaborate, Transform <br /> Welcome to
+              Welcome To
               <span className="text-transparent px-2 bg-gradient-to-r from-[#7e9fd7] to-primary bg-clip-text ml-2">
-                DevSphere
+                DevSphere <br />
               </span>
+              <span className="text-2xl md:text-4xl">Build · Collaborate · Transform</span> <br />
             </h1>
           </div>
 
@@ -45,7 +46,7 @@ export const HeroSection = () => {
               variant="secondary"
               className="w-5/6 md:w-1/4 font-bold"
             >
-              <Link href="https://github.com/0xDevSphere" target="_blank">
+              <Link href="https://github.com/orgs/0xDevSphere/repositories" target="_blank">
                 Explore Projects
               </Link>
             </Button>
