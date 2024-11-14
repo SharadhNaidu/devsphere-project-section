@@ -286,7 +286,7 @@ export const TeamSection = () => {
             case "X":
                 return <XIcon />;
             case "Instagram":
-                return <SiInstagram className="h-[1.125rem] w-[1.125rem]"/>;
+                return <SiInstagram />;
         }
     };
 
