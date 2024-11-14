@@ -13,34 +13,28 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "What types of events and activities does DevSphere organize?",
+    answer: "DevSphere hosts a variety of events, including hands-on workshops, hackathons, speaker sessions, and project collaborations. We focus on practical learning experiences that allow members to build real-world skills in Web 3.0 and open-source development.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "How can I join DevSphere?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "You can join the club by filling the form link provided in the website. We regularly open recruitment for new members, so keep an eye out for announcements, or connect with us on social media for updates.",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+      "I have already filled the fo but haven't recvied any response. What should I do?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "Once you’ve submitted the form, there’s nothing more required from your side. We recruit members on a rolling basis, so we kindly ask for your patience as we work to onboard new members. Our focus is on providing a quality experience, and we want to ensure that each member gets the attention they deserve. Rest assured, we’ll reach out as soon as a spot opens up for you!",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "How can I join the DevSphere core team?",
+    answer:" Currently, we don’t have any open positions on the core team. However, if you believe you can bring unique value to DevSphere, feel free to share your portfolio and proof of work with one of our existing core members.",
     value: "item-4",
-  },
-  {
-    question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
-    value: "item-5",
-  },
+  }
 ];
 
 export const FAQSection = () => {

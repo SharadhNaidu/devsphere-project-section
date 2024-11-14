@@ -26,8 +26,7 @@ export const CommunitySection = () => {
               </CardTitle>
             </CardHeader>
             <CardContent className="lg:w-[80%] text-xl text-muted-foreground">
-              Join our vibrant Discord community! Connect, share, and grow with
-              like-minded enthusiasts. Click to dive in! 🚀
+              Join the club by clicking the button below. We can't wait to see you there!
             </CardContent>
 
             <CardFooter>

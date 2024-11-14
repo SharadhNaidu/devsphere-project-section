@@ -30,7 +30,7 @@ export const HeroSection = () => {
           </div>
 
           <p className="max-w-screen-md mx-auto text-xl text-muted-foreground text-justify">
-            {`A place for builders, learners, and tech enthusiasts who want to create a future that’s more open, connected, and decentralized. If you’re ready to dive into Web3 and open-source projects, collaborate with others, and make a real impact, you’re in the right place.`}
+            {`A place for builders, learners, and tech enthusiasts who want to create a future that’s more open, connected, and decentralized.`}
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">

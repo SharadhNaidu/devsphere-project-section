@@ -1,6 +1,7 @@
 "use client";
 import { Github, Menu } from "lucide-react";
 import devsphereLogo from "@/public/devsphereLogo.png";
+import devgif from "@/public/dev.gif";
 import React from "react";
 import {
     Sheet,
@@ -154,7 +155,7 @@ export const Navbar = () => {
                         <NavigationMenuContent>
                             <div className="grid w-[600px] grid-cols-2 gap-5 p-4">
                                 <Image
-                                    src="https://avatars.githubusercontent.com/u/75042455?v=4"
+                                    src={devgif}
                                     alt="RadixLogo"
                                     className="h-full w-full rounded-md object-cover"
                                     width={600}
