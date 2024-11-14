@@ -26,7 +26,7 @@ export const CommunitySection = () => {
               </CardTitle>
             </CardHeader>
             <CardContent className="lg:w-[80%] text-xl text-muted-foreground">
-              Join the club by clicking the button below. We can't wait to see you there!
+              Join the club by clicking the button below. We cannot wait to see you there!
             </CardContent>
 
             <CardFooter>
