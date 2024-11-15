@@ -15,9 +15,14 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Star } from "lucide-react";
+import Ellipse1 from "@/public/Ellipse1.png"
+import Ellipse2 from "@/public/Ellipse2.png"
+import Ellipse3 from "@/public/Ellipse3.png"
+
+import { StaticImageData } from 'next/image';
 
 interface ReviewProps {
-  image: string;
+  image: string | StaticImageData;
   name: string;
   userName: string;
   comment: string;
@@ -26,7 +31,7 @@ interface ReviewProps {
 
 const reviewList: ReviewProps[] = [
   {
-    image: "https://github.com/shadcn.png",
+    image: Ellipse1,
     name: "Mehul Goyal",
     userName: "BTech23",
     comment:
@@ -34,7 +39,7 @@ const reviewList: ReviewProps[] = [
     rating: 4.5,
   },
   {
-    image: "https://github.com/shadcn.png",
+    image: Ellipse2,
     name: "Sophia Collins",
     userName: "Cybersecurity Analyst",
     comment:
@@ -43,37 +48,14 @@ const reviewList: ReviewProps[] = [
   },
 
   {
-    image: "https://github.com/shadcn.png",
+    image: Ellipse3,
     name: "Adam Johnson",
     userName: "Chief Technology Officer",
     comment:
       "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     rating: 4.9,
   },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Ethan Parker",
-    userName: "Data Scientist",
-    comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    rating: 5.0,
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Ava Mitchell",
-    userName: "IT Project Manager",
-    comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
-    rating: 5.0,
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Isabella Reed",
-    userName: "DevOps Engineer",
-    comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    rating: 4.9,
-  },
+  
 ];
 
 export const TestimonialSection = () => {
@@ -117,7 +99,7 @@ export const TestimonialSection = () => {
                   <div className="flex flex-row items-center gap-4">
                     <Avatar>
                       <AvatarImage
-                        src={review.image}
+                        src={typeof review.image === 'string' ? review.image : review.image.src}
                         alt="radix"
                       />
                       <AvatarFallback>SV</AvatarFallback>
