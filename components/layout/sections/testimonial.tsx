@@ -33,19 +33,29 @@ const reviewList: ReviewProps[] = [
   {
     image: Ellipse1,
     name: "Mehul Goyal",
-    userName: "BTech23",
+    userName: "BTech23 - SoCSE",
     comment:
       "Devsphere is the perfect launchpad for anyone—it's where beginners become builders, guided by a community that's as passionate about learning as it is about creating real-world projects together, and ofc the members here will just not guide u but help u get to that level that u can only imagine",
     rating: 4.5,
   },
   {
     image: Ellipse2,
-    name: "Thushaar R",
-    userName: "Bsc23",
+    name: "Thushaar R",
+    userName: "BSc23 - SoCSE",
     comment:
       "Thanks to an amazing community that truly encourages your development, I started out as a newbie and am now creating genuine Web3 and open source projects. It's the ideal group for anyone with a strong interest in technology; regardless of skill level, there's always something new to learn and people who support you in realizing your full potential.",
     rating: 4.8,
-  },  
+  },
+  {
+    image: Ellipse3,
+    name: "Aniruddha A",
+    userName: "BTech23 - SoCSE",
+    comment:
+      "Devsphere is a highly desirable club for those passionate about blockchain and Web3 technologies. It has enabled me to explore the  basics of blockchain, Web3, and their applications in real-world projects. The club provides a collaborative environment with workshops and discussions that help develop both technical skills and a deeper understanding of  these modern systems and the tech behind them. It's a great place to learn, innovate, and network with like-minded individuals.",
+    rating: 4.8,
+  },
+
+  
 ];
 
 export const TestimonialSection = () => {
