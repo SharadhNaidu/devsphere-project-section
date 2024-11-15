@@ -33,6 +33,7 @@ interface RouteProps {
 interface FeatureProps {
     title: string;
     description: string;
+    href: string;
 }
 
 const routeList: RouteProps[] = [
@@ -56,18 +57,19 @@ const routeList: RouteProps[] = [
 
 const featureList: FeatureProps[] = [
     {
-        title: "Showcase Your Value ",
-        description: "Highlight how your product solves user problems.",
+        title: "Benefits",
+        description: "Discover the advantages of joining our university club.",
+        href: "#benefits",
     },
     {
-        title: "Build Trust",
-        description:
-            "Leverages social proof elements to establish trust and credibility.",
+        title: "Features",
+        description: "Explore the opportunities and activities we offer.",
+        href: "#features",
     },
     {
-        title: "Capture Leads",
-        description:
-            "Make your lead capture form visually appealing and strategically.",
+        title: "Events",
+        description: "Stay up to date with our upcoming campus events.",
+        href: "https://lu.ma/devsphere",
     },
 ];
 
@@ -162,21 +164,18 @@ export const Navbar = () => {
                                     height={600}
                                 />
                                 <ul className="flex flex-col gap-2">
-                                    {featureList.map(
-                                        ({ title, description }) => (
-                                            <li
-                                                key={title}
-                                                className="rounded-md p-3 text-sm hover:bg-muted"
-                                            >
+                                    {featureList.map(({ title, description, href }) => (
+                                        <li key={title} className="rounded-md p-3 text-sm hover:bg-muted">
+                                            <Link href={href} className="block">
                                                 <p className="mb-1 font-semibold leading-none text-foreground">
                                                     {title}
                                                 </p>
                                                 <p className="line-clamp-2 text-muted-foreground">
                                                     {description}
                                                 </p>
-                                            </li>
-                                        )
-                                    )}
+                                            </Link>
+                                        </li>
+                                    ))}
                                 </ul>
                             </div>
                         </NavigationMenuContent>
