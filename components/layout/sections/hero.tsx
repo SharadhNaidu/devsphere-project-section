@@ -16,7 +16,7 @@ export const HeroSection = () => {
             <span className="mr-2 text-primary">
               <Badge>✨</Badge>
             </span>
-            <span> Registrations are Open!</span>
+            <span> Registrations Are Open!</span>
           </Badge>
 
           <div className="max-w-screen-lg mx-auto text-center text-3xl md:text-6xl font-bold leading-relaxed">
