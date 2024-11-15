@@ -58,7 +58,7 @@ const routeList: RouteProps[] = [
 const featureList: FeatureProps[] = [
     {
         title: "Benefits",
-        description: "Discover the advantages of joining our university club.",
+        description: "Discover the advantages of joining our club.",
         href: "#benefits",
     },
     {
