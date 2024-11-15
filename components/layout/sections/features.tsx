@@ -58,7 +58,7 @@ export const FeaturesSection = () => {
         Why DevSphere Stands Out
       </h2>
 
-      <h3 className="md:w-1/2 mx-auto text-xl text-justify text-muted-foreground mb-8">
+      <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
         We are dedicated to creating a supportive space where members can grow their skills, take on exciting challenges, and explore the future of Web 3.0 together.
       </h3>
 
