@@ -40,22 +40,12 @@ const reviewList: ReviewProps[] = [
   },
   {
     image: Ellipse2,
-    name: "Sophia Collins",
-    userName: "Cybersecurity Analyst",
+    name: "Thushaar R",
+    userName: "Bsc23",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+      "Thanks to an amazing community that truly encourages your development, I started out as a newbie and am now creating genuine Web3 and open source projects. It's the ideal group for anyone with a strong interest in technology; regardless of skill level, there's always something new to learn and people who support you in realizing your full potential.",
     rating: 4.8,
-  },
-
-  {
-    image: Ellipse3,
-    name: "Adam Johnson",
-    userName: "Chief Technology Officer",
-    comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    rating: 4.9,
-  },
-  
+  },  
 ];
 
 export const TestimonialSection = () => {
