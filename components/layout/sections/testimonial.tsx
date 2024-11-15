@@ -92,14 +92,18 @@ export const TestimonialSection = () => {
                     <Star className="size-4 fill-primary text-primary" />
                     <Star className="size-4 fill-primary text-primary" />
                   </div>
-                  {`"${review.comment}"`}
+                  <p className="font-serif italic">{`"${review.comment}"`}</p>
                 </CardContent>
 
                 <CardHeader>
                   <div className="flex flex-row items-center gap-4">
                     <Avatar>
                       <AvatarImage
-                        src={typeof review.image === 'string' ? review.image : review.image.src}
+                        src={
+                          typeof review.image === "string"
+                            ? review.image
+                            : review.image.src
+                        }
                         alt="radix"
                       />
                       <AvatarFallback>SV</AvatarFallback>

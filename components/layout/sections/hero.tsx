@@ -16,7 +16,7 @@ export const HeroSection = () => {
             <span className="mr-2 text-primary">
               <Badge>✨</Badge>
             </span>
-            <span> Registrations To Join Club Now Open!</span>
+            <span> Registrations are Open!</span>
           </Badge>
 
           <div className="max-w-screen-lg mx-auto text-center text-3xl md:text-6xl font-bold leading-relaxed">
@@ -25,7 +25,7 @@ export const HeroSection = () => {
               <span className="text-transparent px-2 bg-gradient-to-r from-[#7e9fd7] to-primary bg-clip-text ml-2">
                 DevSphere <br />
               </span>
-              <span className="text-xl md:text-4xl">
+              <span className="text-sm md:text-4xl">
                 Build · Collaborate · Transform
               </span>{" "}
               <br />
