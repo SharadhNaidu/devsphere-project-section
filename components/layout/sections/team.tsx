@@ -259,7 +259,7 @@ export const TeamSection = () => {
         {
             imageUrl: HarshaImage,
             firstName: "Venkata",
-            lastName: "Sushant Harsha",
+            lastName: "Sushanth Harsha",
             positions: ["Content Writer"],
             socialNetworks: [
                 {
