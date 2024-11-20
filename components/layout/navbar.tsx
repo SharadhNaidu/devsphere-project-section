@@ -42,8 +42,8 @@ const routeList: RouteProps[] = [
         label: "Testimonials",
     },
     {
-        href: "#team",
-        label: "Team",
+        href: "https://lu.ma/devsphere",
+        label: "Events",
     },
     {
         href: "#contact",
@@ -57,6 +57,11 @@ const routeList: RouteProps[] = [
 
 const featureList: FeatureProps[] = [
     {
+        title: "Team",
+        description: "Get to know the team behind DevSphere",
+        href: "#team",
+    },
+    {
         title: "Benefits",
         description: "Discover the advantages of joining our club.",
         href: "#benefits",
@@ -65,11 +70,6 @@ const featureList: FeatureProps[] = [
         title: "Features",
         description: "Explore the opportunities and activities we offer.",
         href: "#features",
-    },
-    {
-        title: "Events",
-        description: "Stay up to date with our upcoming campus events.",
-        href: "https://lu.ma/devsphere",
     },
 ];
 
@@ -184,7 +184,10 @@ export const Navbar = () => {
                     <NavigationMenuItem>
                         {routeList.map(({ href, label }) => (
                             <NavigationMenuLink key={href} asChild>
-                                <Link href={href} className="text-base px-4">
+                                <Link
+                                    href={href}
+                                    className={`text-base px-4 ${label === 'Events' ? 'text-primary' : ''}`}
+                                >
                                     {label}
                                 </Link>
                             </NavigationMenuLink>
