@@ -2,7 +2,9 @@ import { Separator } from "@/components/ui/separator";
 export default function DAProgramPage() {
   return (
     <div className="grid w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl gap-4 mx-auto py-20 md:py-20">
-      <h1 className="text-3xl font-bold">DevSphere Apprenticeship Program</h1>
+      <h1 className="text-3xl text-primary font-bold">
+        DevSphere Apprenticeship Program
+      </h1>
       <p>
         The DevSphere Apprenticeship Program is where you get to shine, learn,
         and make a real impact.
@@ -26,7 +28,9 @@ export default function DAProgramPage() {
         </ul>
       </div>
       <Separator />
-      <h2 className="text-xl font-bold">How The Recruiting Works</h2>
+      <h2 className="text-xl text-primary font-bold">
+        How The Recruiting Works
+      </h2>
       <div className="ml-4">
         <ul className="list-disc space-y-1.5">
           <li>
@@ -57,7 +61,9 @@ export default function DAProgramPage() {
         </ul>
       </div>
       <Separator />
-      <h2 className="text-xl font-bold">Perks of Being an Apprentice</h2>
+      <h2 className="text-xl text-primary font-bold">
+        Perks of Being an Apprentice
+      </h2>
       <div className="ml-7">
         <ol className="list-decimal space-y-1.5">
           <li>
@@ -77,13 +83,15 @@ export default function DAProgramPage() {
           </li>
           <li>
             <p className="font-bold pb-2">Path to Leadership</p>Stick with us
-            for 3 months or more as an apprentice, and you can apply to become a core
-            member of DevSphere.
+            for 3 months or more as an apprentice, and you can apply to become a
+            core member of DevSphere.
           </li>
         </ol>
       </div>
       <Separator />
-      <h2 className="text-xl font-bold">Who are we looking for?</h2>
+      <h2 className="text-xl text-primary font-bold">
+        Who are we looking for?
+      </h2>
       <h3 className="text-lg font-bold">Tech Apprentice</h3>
       <div className="ml-4">
         <ul className="list-disc space-y-1.5">
@@ -112,7 +120,9 @@ export default function DAProgramPage() {
         </ul>
       </div>
       <Separator />
-      <h2 className="text-xl font-bold">Expectations from an Apprentice</h2>
+      <h2 className="text-xl text-primary font-bold">
+        Expectations from an Apprentice
+      </h2>
       <div className="ml-7">
         <ol className="list-decimal space-y-1.5">
           <li>
@@ -121,7 +131,8 @@ export default function DAProgramPage() {
           </li>
           <li>
             <p className="font-bold pb-2">Collaborate and Learn</p>Work with
-            core members and other apprentice to bring out the best in each other.
+            core members and other apprentice to bring out the best in each
+            other.
           </li>
           <li>
             <p className="font-bold pb-2">Lead by Example</p>As an apprentice,
@@ -131,7 +142,7 @@ export default function DAProgramPage() {
         </ol>
       </div>
       <Separator />
-      <h2 className="text-xl font-bold">
+      <h2 className="text-xl text-primary font-bold">
         Why Join the DevSphere Apprenticeship Program?
       </h2>
       <p>
@@ -141,9 +152,12 @@ export default function DAProgramPage() {
         becoming a core member and shaping the future of DevSphere.
       </p>
       <Separator />
-      <h2 className="text-xl font-bold">How to Apply?</h2>
+      <h2 className="text-xl text-primary font-bold">How to Apply?</h2>
       <p>
-        Fill out our <a href="#" className="font-bold underline">Apprentice Recruitment Form.</a>
+        Fill out our{" "}
+        <a href="#" className="font-bold underline">
+          Apprentice Recruitment Form.
+        </a>
       </p>
     </div>
   );
