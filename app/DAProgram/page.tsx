@@ -1,7 +1,7 @@
 import { Separator } from "@/components/ui/separator";
 export default function DAProgramPage() {
   return (
-    <div className="grid w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl gap-4 mx-auto py-20 md:py-20 text-justify">
+    <div className="grid w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl gap-4 mx-auto py-20 md:py-20">
       <h1 className="text-3xl font-bold">DevSphere Apprenticeship Program</h1>
       <p>
         The DevSphere Apprenticeship Program is where you get to shine, learn,
@@ -9,7 +9,7 @@ export default function DAProgramPage() {
       </p>
       <Separator />
       <p>
-        Members of DevSphere can apply to become wizards, and if selected,
+        Members of DevSphere can apply to become an apprentice, and if selected,
         you'll get -
       </p>
       <div className="ml-4">
@@ -77,7 +77,7 @@ export default function DAProgramPage() {
           </li>
           <li>
             <p className="font-bold pb-2">Path to Leadership</p>Stick with us
-            for 3 months or more as a wizard, and you can apply to become a core
+            for 3 months or more as an apprentice, and you can apply to become a core
             member of DevSphere.
           </li>
         </ol>
@@ -121,7 +121,7 @@ export default function DAProgramPage() {
           </li>
           <li>
             <p className="font-bold pb-2">Collaborate and Learn</p>Work with
-            core members and other wizards to bring out the best in each other.
+            core members and other apprentice to bring out the best in each other.
           </li>
           <li>
             <p className="font-bold pb-2">Lead by Example</p>As an apprentice,
@@ -134,7 +134,7 @@ export default function DAProgramPage() {
       <h2 className="text-xl font-bold">
         Why Join the DevSphere Apprenticeship Program?
       </h2>
-      <p className="text-justify">
+      <p>
         It's a platform for growth, creativity, and leadership. From
         personalized mentorship to public recognition, the Apprentice Program is
         where you build not just skills, but a reputation. It's your gateway to
