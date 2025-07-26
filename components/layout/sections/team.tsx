@@ -2,18 +2,18 @@ import GithubIcon from "@/components/icons/github-icon";
 import LinkedInIcon from "@/components/icons/linkedin-icon";
 import XIcon from "@/components/icons/x-icon";
 import DefaultIcon from "@/public/default.jpeg";
-import TaufeeqImage from "@/public/Taufeeq1.jpg";
-import KautilyaImage from "@/public/Kautilya_.jpg";
+import RitamImage from "@/public/ritam.jpg";
+import SamImage from "@/public/sam.jpg";
 import PushanImage from "@/public/Pushan.jpg";
 import SagarImage from "@/public/Sagar.jpg";
-import YashmeetImage from "@/public/Yashmeet.jpg";
+import PuniImage from "@/public/puneetha.jpeg";
 import SamarthImage from "@/public/Samarth.jpg";
-import SharuImage from "@/public/sharu.jpg";
-import HarshaImage from "@/public/harsha.jpg";
-import DaiwikImage from "@/public/daiwik.jpg";
-import ShreyasImage from "@/public/shreyas.jpg";
-import SoumikImage from "@/public/soumik.jpg";
-import ProfNikithaImage from "@/public/profnikitha.jpg";
+import JathinImage from "@/public/jathin.png";
+import KautilyaImage from "@/public/Kautilya_.jpg";
+import LalithImage from "@/public/lalith.png";
+import TaufeeqImage from "@/public/taufeeq.jpeg";
+
+import MerinThomasImage from "@/public/ProfMerin.png";
 
 import { StaticImageData } from "next/image";
 import { SiInstagram } from "react-icons/si";
@@ -41,22 +41,157 @@ interface SocialNetworkProps {
 export const TeamSection = () => {
     const teamList: TeamProps[] = [
         {
-            imageUrl: ProfNikithaImage,
-            firstName: "Dr.Nikita",
-            lastName: "Singh",
+            imageUrl: MerinThomasImage,
+            firstName: "Prof. Merin",
+            lastName: "Thomas",
             positions: ["Faculty Co-ordinator"],
             socialNetworks: [
                 {
                     name: "LinkedIn",
-                    url: "https://www.linkedin.com/in/nikitas14/",
+                    url: "https://www.linkedin.com/in/dr-merin-thomas/",
                 },
+            ],
+        },
+        {
+            imageUrl: RitamImage,
+            firstName: "Ritam",
+            lastName: "Rao",
+            positions: ["President"],
+            socialNetworks: [
+                {
+                    name: "LinkedIn",
+                    url: "https://www.linkedin.com/in/ritam-rao-86503a2b6",
+                },
+                {
+                    name: "Github",
+                    url: "https://github.com/RitamRoa",
+                },
+                {
+                    name: "Instagram",
+                    url: "https://www.instagram.com/ritam.rao",
+                },
+            ],
+        },
+        {
+            imageUrl: SamImage,
+            firstName: "Samarth",
+            lastName: "Kadam",
+            positions: ["Vice President"],
+            socialNetworks: [
+                {
+                    name: "LinkedIn",
+                    url: "https://www.linkedin.com/in/samarth-kadam-008563331/",
+                },
+                {
+                    name: "Github",
+                    url: "https://github.com/IamSamk",
+                },
+                
+            ],
+        },
+        {
+            imageUrl: PushanImage,
+            firstName: "Pushan",
+            lastName: "T",
+            positions: ["Founder & Tech Lead"],
+            socialNetworks: [
+                {
+                    name: "LinkedIn",
+                    url: "https://www.linkedin.com/in/pushant/",
+                },
+                {
+                    name: "Github",
+                    url: "https://github.com/pushan2005",
+                },
+                {
+                    name: "X",
+                    url: "https://x.com/broken_nokia",
+                },
+                {
+                    name: "Instagram",
+                    url: "https://www.instagram.com/pushan_fillertext/",
+                },
+            ],
+        },
+        
+        {
+            imageUrl: SagarImage,
+            firstName: "Sagar",
+            lastName: "N Rao",
+            positions: ["Design Lead"],
+            socialNetworks: [
+                {
+                    name: "LinkedIn",
+                    url: "https://www.linkedin.com/in/sagar-n-rao-1a883b2ab/",
+                },
+                {
+                    name: "Github",
+                    url: "https://github.com/SagarNRao/",
+                },
+                {
+                    name: "Instagram",
+                    url: "https://www.instagram.com/sagar_n_rao_man/",
+                },
+            ],
+        },
+        {
+            imageUrl: PuniImage,
+            firstName: "Puneetha",
+            lastName: "Shankar",
+            positions: ["Events and Experiences"],
+            socialNetworks: [
+                {
+                    name: "LinkedIn",
+                    url: "https://www.linkedin.com/in/puneetha-s-shankar-079261328/",
+                },
+                {
+                    name: "Github",
+                    url: "https://github.com/Puneetha-S-Shankar",
+                },
+                {
+                    name: "Instagram",
+                    url: "https://www.instagram.com/_puneethaa?igsh=MXhpcG1mdDk1eGJrbg==",
+                },
+            ],
+        },
+        {
+            imageUrl: JathinImage,
+            firstName: "Jathin",
+            lastName: "Kirani",
+            positions: ["Media - Content Lead"],
+            socialNetworks: [
+                {
+                    name: "LinkedIn",
+                    url: "https://www.linkedin.com/in/jathin-kirani-nagaraj-2252152b7/",
+                },
+              {
+                    name: "Github",
+                    url: "https://github.com/Jathin-KN",
+                },
+                {
+                    name: "Instagram",
+                    url: "https://www.instagram.com/jack.k_28?igsh=MTZycms0NzNocjFxMA==",
+                },
+            ],
+        },
+        {
+            imageUrl: LalithImage,
+            firstName: "B.Lalith",
+            lastName: "Aditya",
+            positions: ["Media - Cinematography lead"],
+            socialNetworks: [
+                {
+                    name: "LinkedIn",
+                    url: "https://www.linkedin.com/in/lalith-aditya-b-0a99b3312/",
+                },
+            
             ],
         },
         {
             imageUrl: TaufeeqImage,
             firstName: "Taufeeq",
             lastName: "Riyaz",
-            positions: ["President"],
+            positions: ["Founder & Advisor"],
             socialNetworks: [
                 {
                     name: "LinkedIn",
@@ -80,7 +215,7 @@ export const TeamSection = () => {
             imageUrl: KautilyaImage,
             firstName: "Kautilya",
             lastName: "DK",
-            positions: ["Vice President"],
+            positions: ["Advisor"],
             socialNetworks: [
                 {
                     name: "LinkedIn",
@@ -93,170 +228,6 @@ export const TeamSection = () => {
                 {
                     name: "Instagram",
                     url: "https://www.instagram.com/kautilyadevraj/",
-                },
-            ],
-        },
-        {
-            imageUrl: PushanImage,
-            firstName: "Pushan",
-            lastName: "T",
-            positions: ["Tech Lead"],
-            socialNetworks: [
-                {
-                    name: "LinkedIn",
-                    url: "https://www.linkedin.com/in/pushant/",
-                },
-                {
-                    name: "Github",
-                    url: "https://github.com/pushan2005",
-                },
-                {
-                    name: "X",
-                    url: "https://x.com/broken_nokia",
-                },
-                {
-                    name: "Instagram",
-                    url: "https://www.instagram.com/pushan_fillertext/",
-                },
-            ],
-        },
-        {
-            imageUrl: SoumikImage,
-            firstName: "Soumik",
-            lastName: "Halder",
-            positions: ["Growth and Partnerships"],
-            socialNetworks: [
-                {
-                    name: "LinkedIn",
-                    url: "https://www.linkedin.com/in/soumik7/",
-                },
-                {
-                    name: "Github",
-                    url: "https://github.com/emSoumik",
-                },
-                {
-                    name: "X",
-                    url: "https://x.com/emSoumik",
-                },
-            ],
-        },
-        {
-            imageUrl: SagarImage,
-            firstName: "Sagar",
-            lastName: "N Rao",
-            positions: ["Design Lead"],
-            socialNetworks: [
-                {
-                    name: "LinkedIn",
-                    url: "https://www.linkedin.com/in/sagar-n-rao-1a883b2ab/",
-                },
-                {
-                    name: "Github",
-                    url: "https://github.com/SagarNRao/",
-                },
-                {
-                    name: "Instagram",
-                    url: "https://www.instagram.com/sagar_n_rao_man/",
-                },
-            ],
-        },
-        {
-            imageUrl: YashmeetImage,
-            firstName: "Yashmeet",
-            lastName: "Baid",
-            positions: ["Events and Experiences"],
-            socialNetworks: [
-                {
-                    name: "LinkedIn",
-                    url: "https://www.linkedin.com/in/yashmeet-baid-2b269127a/",
-                },
-                {
-                    name: "Github",
-                    url: "https://github.com/yashmeetbaid",
-                },
-                {
-                    name: "Instagram",
-                    url: "https://www.instagram.com/yashmeetbaid/",
-                },
-            ],
-        },
-        {
-            imageUrl: SharuImage,
-            firstName: "Sharu G",
-            lastName: "Hampali",
-            positions: ["Content Manager"],
-            socialNetworks: [
-                {
-                    name: "LinkedIn",
-                    url: "https://www.linkedin.com/in/sharuhampali/",
-                },
-                {
-                    name: "Github",
-                    url: "https://github.com/Sharuhampali",
-                },
-                {
-                    name: "Instagram",
-                    url: "https://www.instagram.com/sharu_hampali",
-                },
-            ],
-        },
-        {
-            imageUrl: DaiwikImage,
-            firstName: "Daiwik",
-            lastName: "Reddy",
-            positions: ["Media Head"],
-            socialNetworks: [
-                {
-                    name: "LinkedIn",
-                    url: "https://www.linkedin.com/in/daiwik-reddy-384909283",
-                },
-                {
-                    name: "Instagram",
-                    url: "https://www.instagram.com/daiwik_reddy",
-                },
-            ],
-        },
-        {
-            imageUrl: ShreyasImage,
-            firstName: "Shreyas",
-            lastName: "Abiram",
-            positions: ["Cinematographer"],
-            socialNetworks: [
-                {
-                    name: "LinkedIn",
-                    url: "https://www.linkedin.com/in/shreyas-abiram-a52417290/",
-                },
-                {
-                    name: "Github",
-                    url: "https://github.com/Shreyas-Abiram",
-                },
-                {
-                    name: "X",
-                    url: "https://x.com/Shreyas02666427",
-                },
-                {
-                    name: "Instagram",
-                    url: "https://www.instagram.com/theguywho_films/",
-                },
-            ],
-        },
-        {
-            imageUrl: HarshaImage,
-            firstName: "Venkata",
-            lastName: "Sushanth Harsha",
-            positions: ["Content Writer"],
-            socialNetworks: [
-                {
-                    name: "LinkedIn",
-                    url: "http://linkedin.com/in/sushanth-harsha-9344a0220",
-                },
-                {
-                    name: "Github",
-                    url: "https://github.com/SushanthHarsha/",
-                },
-                {
-                    name: "Instagram",
-                    url: "https://www.instagram.com/_agnivarcas/",
                 },
             ],
         },
