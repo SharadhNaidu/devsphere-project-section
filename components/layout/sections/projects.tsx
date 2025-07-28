@@ -85,7 +85,7 @@ export const ProjectsSection = () => {
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button asChild className="flex-1 group/demo">
-                <Link href="https://artify-by-dev-sphere-dawba8543-sharadhanaidu-rvueduins-projects.vercel.app/" className="flex items-center justify-center">
+                <Link href="https://artify-by-dev-sphere.vercel.app/" className="flex items-center justify-center">
                   <ExternalLink className="size-4 mr-2 group-hover/demo:translate-x-1 transition-transform" />
                   View Demo
                 </Link>
