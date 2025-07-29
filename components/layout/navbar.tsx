@@ -42,6 +42,10 @@ const routeList: RouteProps[] = [
         label: "Testimonials",
     },
     {
+        href: "#projects",
+        label: "Projects",
+    },
+    {
         href: "https://lu.ma/devsphere",
         label: "Events",
     },
