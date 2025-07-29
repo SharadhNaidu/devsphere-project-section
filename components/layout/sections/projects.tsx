@@ -78,7 +78,7 @@ export const ProjectsSection = () => {
                 <strong>Artify by DevSphere</strong> is an AI-powered web application that transforms ordinary photos into stunning works of art. Users can choose from over 30 artistic styles to create personalized masterpieces in seconds.
               </p>
               <p className="text-muted-foreground">
-                The application uses Google's Gemini AI to ensure high-quality transformations while preserving the original subject's identity. Built with Next.js, Artify offers live previews and instant downloads with a seamless user experience.
+                The application uses Google&apos;s Gemini AI to ensure high-quality transformations while preserving the original subject&apos;s identity. Built with Next.js, Artify offers live previews and instant downloads with a seamless user experience.
               </p>
             </div>
 
