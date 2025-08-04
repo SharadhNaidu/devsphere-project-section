@@ -8,6 +8,7 @@ import PushanImage from "@/public/Pushan.jpg";
 import SagarImage from "@/public/Sagar.jpg";
 import PuniImage from "@/public/puneetha.jpeg";
 import SamarthImage from "@/public/Samarth.jpg";
+import SharadhImage from "@/public/techlead.png";
 import JathinImage from "@/public/jathin.png";
 import KautilyaImage from "@/public/Kautilya_.jpg";
 import LalithImage from "@/public/lalith.png";
@@ -90,27 +91,24 @@ export const TeamSection = () => {
             ],
         },
         {
-            imageUrl: PushanImage,
-            firstName: "Pushan",
-            lastName: "T",
-            positions: ["Founder & Tech Lead"],
+            imageUrl: SharadhImage,
+            firstName: "Sharadh",
+            lastName: "Naidu",
+            positions: ["Tech Lead"],
             socialNetworks: [
                 {
                     name: "LinkedIn",
-                    url: "https://www.linkedin.com/in/pushant/",
+                    url: "https://www.linkedin.com/in/sharadh-naidu-72259a32b/",
                 },
                 {
                     name: "Github",
-                    url: "https://github.com/pushan2005",
+                    url: "https://github.com/SharadhNaidu",
                 },
                 {
                     name: "X",
-                    url: "https://x.com/broken_nokia",
+                    url: "https://x.com/SharadhNaidu",
                 },
-                {
-                    name: "Instagram",
-                    url: "https://www.instagram.com/pushan_fillertext/",
-                },
+
             ],
         },
         
@@ -228,6 +226,30 @@ export const TeamSection = () => {
                 {
                     name: "Instagram",
                     url: "https://www.instagram.com/kautilyadevraj/",
+                },
+            ],
+        },
+            {
+            imageUrl: PushanImage,
+            firstName: "Pushan",
+            lastName: "T",
+            positions: ["Tech Advisor"],
+            socialNetworks: [
+                {
+                    name: "LinkedIn",
+                    url: "https://www.linkedin.com/in/pushant/",
+                },
+                {
+                    name: "Github",
+                    url: "https://github.com/pushan2005",
+                },
+                {
+                    name: "X",
+                    url: "https://x.com/broken_nokia",
+                },
+                {
+                    name: "Instagram",
+                    url: "https://www.instagram.com/pushan_fillertext/",
                 },
             ],
         },
